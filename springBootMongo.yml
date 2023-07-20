@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: shiva/mongodb
+        image: shivatendulkar/mongodbimage
         ports:
         - containerPort: 8080
         env:
